@@ -13,14 +13,14 @@ Here are some fun things that have been made with it:
 9. Make a central error handler for your bots and scripts
 10. Beep morse code that is unique for every door in the house when opened
 
-In the `addons` folder there are many addons that have been made for this and they have their own `README.md` for each of them
+In the `addons` folder there are many addons that have been made for this and they have their own `README.md` for each of them and they allow you do do things such as beep [Morse](/addons/morse/) code with your Raspberry pi, light up [LEDs](/addons/led/) on your Raspberry pi, get updates from [Nagios](/addons/nagios/), listen to [Syslog](/addons/syslog/) messages and send categorized events to an [IRC](/addons/irc/) bot.
 
-This is not meant as some product or anything like that but more like some fun code to study for learning what cool things you can do with programming especially related to smart home and internet of things
+This is not meant as some product or anything like that but more like some fun code to study for learning what cool things you can do with programming especially related to smart home and internet of things.
 
-This assumes that you have a local IRC server and some kind of chat client connected to it like weechat as that is what I use but it will still work anyway but most examples use it
+This assumes that you have a local IRC server and some kind of chat client connected to it like weechat as that is what I use but it will still work anyway but most examples use it.
 
-How you use this is you edit `commands.py` (there is a convenient script called `iote` for it) and you put in the handlers you want and they will be run when the matching redis pubsub channel has a message
+How you use this is you edit `commands.py` (there is a convenient script called `iote` for it) and you put in the handlers you want and they will be run when the matching redis pubsub channel has a message.
 
-Some things here might be very broken and some examples incomplete but if you are taking on in trying to use this in some capacity you probably already know how to fix that
+Some things here might be very broken and some examples incomplete but if you are taking on in trying to use this in some capacity you probably already know how to fix that.
 
-Feel free to send pull requests or alike if you make your own addons or edits to this since it might be quite bug ridden and alike
+Feel free to send pull requests or alike if you make your own addons or edits to this since it might be quite bug ridden and alike.
