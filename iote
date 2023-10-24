@@ -1,0 +1,20 @@
+#!/bin/sh
+# Simple script that opens the commands file in nano and asks if you want to reload when saving it
+# Replace this with wherever commands.py gets placed
+commandsfile='/home/pi/.cron/iotreact/commands.py'
+
+nano "$commandsfile"
+
+python -m py_compile "$commandsfile"
+if [ "$?" -ne "0" ]; then
+ exit 1
+fi
+
+echo 'Reload (y/N) ?'
+read a
+case "$a" in
+ y)
+  echo 'Reloading'
+  redis-cli publish iotrc reload
+ ;;
+esac
