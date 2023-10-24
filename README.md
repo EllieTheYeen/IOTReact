@@ -1,4 +1,4 @@
-###IOTReact 
+### IOTReact 
 Which is this is named is an internal project I have used for many years for all kinds of internet of things things and smart home stuff so it practically connects to all smart home devices in the house. Essentially it redirects redis pubsub channels using small functions so you can quickly make small implementations of different smart home functions. I have worked on this for maybe around 10 years as of when this is written (2023) and used it in so many different small and large projects.
 
 Here are some fun things that have been made with it:
