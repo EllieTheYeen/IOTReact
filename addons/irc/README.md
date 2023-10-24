@@ -1,4 +1,4 @@
-### ToIRC
+# ToIRC
 An IRC bot that joins IRC and is meant for local IRC servers.
 
 Redis messages where the channel starts with toirc.* is sent to IRC where the message is the content.
